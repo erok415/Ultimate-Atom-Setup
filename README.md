@@ -83,9 +83,9 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
 ```
 Moreover to make the two lines prompt you have to add this:
-```
+<pre>
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-```
+</pre>
 💄✨ and to make it beautifull with the $ character add these other lines:
 <pre>
 # Add a space in the first prompt
@@ -101,11 +101,11 @@ You can read more about POWERLEVEL9K prompts options [here](https://github.com/b
 
 **Enable text editor navigation**
 Vertical cursor
-```
+<pre>
 iTerm2 → Preferences → Profiles → Text
 → Cursor : ✓ Vertical Bar 
 → Blinking cursor : ✓ ON
-```
+</pre>
 **Text navigation with keyboard**
 Moreover, by default, word jumps (option + → or ←) and word deletions (option + backspace) do not work on iTerm2. To enable them, go to :
 ```
