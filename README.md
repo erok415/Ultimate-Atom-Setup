@@ -83,20 +83,23 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
 ```
 Moreover to make the two lines prompt you have to add this:
-<pre>
+```
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-</pre>
+```
 💄✨ and to make it beautifull with the $ character add these other lines:
-<pre>
-# Add a space in the first prompt
+
+Add a space in the first prompt
+```
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%f"
-# Visual customisation of the second prompt line
+```
+Visual customization of the second prompt line
+```
 local user_symbol="$"
 if [[ $(print -P "%#") =~ "#" ]]; then
     user_symbol = "#"
 fi
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{yellow}%} $user_symbol%{%b%f%k%F{yellow}%} %{%f%}"
-</pre>
+```
 You can read more about POWERLEVEL9K prompts options [here](https://github.com/bhilburn/powerlevel9k#customizing-prompt-segments), and deeper customizations here: code.tutsplus.com/tutorials/how-to-customize-your-command-prompt — net-24083
 
 **Enable text editor navigation**
