@@ -87,7 +87,7 @@ Moreover to make the two lines prompt you have to add this:
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 ```
 💄✨ and to make it beautifull with the $ character add these other lines:
-```
+```javascript
 # Add a space in the first prompt
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%f"
 # Visual customisation of the second prompt line
