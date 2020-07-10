@@ -12,3 +12,8 @@ atom-wrap-in-tag atom-ternjs autoclose-html autocomplete-modules color-picker do
 es6-javascript js-hyperclick hyperclick pigments linter-eslint tree-view-copy-relative-path lodash-snippets 
 language-babel react-es7-snippets atom-jest-snippets dracula-theme
 ```
+
+Here's some additional goodies.
+```
+apm install git-time-machine minimap
+```
