@@ -98,8 +98,9 @@ local user_symbol="$"
 if [[ $(print -P "%#") =~ "#" ]]; then
     user_symbol = "#"
 fi
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{yellow}%} $user_symbol%{%b%f%k%F{yellow}%} %{%f%}"
 ```
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{yellow}%} $user_symbol%{%b%f%k%F{yellow}%} %{%f%}"
+
 You can read more about POWERLEVEL9K prompts options [here](https://github.com/bhilburn/powerlevel9k#customizing-prompt-segments), and deeper customizations here: code.tutsplus.com/tutorials/how-to-customize-your-command-prompt — net-24083
 
 **Enable text editor navigation**
